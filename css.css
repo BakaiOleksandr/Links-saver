@@ -1,34 +1,72 @@
-html{
+html {
   font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-body{
+body {
   background-color: rgb(180, 188, 255);
   padding: 0;
   margin: 1rem;
 }
-
+h1 {
+  font-size: 1.2rem;
+}
 #root {
   display: flex;
   flex-direction: column;
 }
-
-button{
+#links-container {
+  margin-top: 0.5rem;
+}
+#add-link {
+  width: 500px;
+}
+button {
   background-color: rgb(255, 204, 127);
   border: none;
   width: 2rem;
   height: 1rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  text-align: center;
 }
-#myInput {
-  height: 1rem;
+span {
+  font-style: italic;
+}
+
+input {
   font-size: 1rem;
   overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  border: 0.04rem solid;
 }
-label{
+input::placeholder {
+  color: rgb(214, 214, 214);
+}
+label {
   font-size: 1rem;
 }
-a{
+a {
   word-break: break-word;
+  text-decoration: none;
 }
-label{
+a:link {
+  color: rgb(131, 18, 236);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(131, 18, 236);
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(131, 18, 236);
+  text-decoration: underline;
+}
+label {
   white-space: nowrap;
 }

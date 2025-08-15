@@ -7,11 +7,25 @@
     <link href="css.css" rel="stylesheet" />
   </head>
   <body>
+    <h1>Links-saver</h1>
     <div id="root">
       <div id="add-link">
         <label>Add link here:</label>
-        <input id="myInput" type="url" placeholder="Place the URL" 
-        autocomplete="off"/>
+        <input
+          id="myInput"
+          type="url"
+          placeholder="Place the URL"
+          autocomplete="off"
+        />
+        <div>
+          <label>Comment:</label>
+          <input
+            id="commentInput"
+            type="text"
+            autocomplete="off"
+            placeholder="Write a comment"
+          />
+        </div>
       </div>
       <div id="links-container"></div>
     </div>
