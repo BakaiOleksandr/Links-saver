@@ -1,0 +1,34 @@
+html{
+  font-size: 25px;
+}
+body{
+  background-color: rgb(180, 188, 255);
+  padding: 0;
+  margin: 1rem;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  background-color: rgb(255, 204, 127);
+  border: none;
+  width: 2rem;
+  height: 1rem;
+}
+#myInput {
+  height: 1rem;
+  font-size: 1rem;
+  overflow: hidden;
+}
+label{
+  font-size: 1rem;
+}
+a{
+  word-break: break-word;
+}
+label{
+  white-space: nowrap;
+}
